@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(203, 203, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+header{
+    text-align: center;
+    line-height: 5px;
+}
+.formule{
+    background-color: #fff;
+    padding: 10px;
+    width: 500px;
+    height: 620px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+p{
+    color: grey;
+    font-size: 15px;
+}
+
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.nom{
+    width: 230px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+.int{
+    display: flex;
+    justify-content: space-between;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+select{
+    border-radius: 4px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.bord{
+    display: inline;
+    border: 1px solid #000000;
+    margin: 10px 0px;
+    padding: 5px;
+    width: 140px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+label{
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.borders{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.genre{
+    color: #000000;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+.saisie{
+    width: 485px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+.butt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(56, 197, 53);
+    color: #fff;
+    border: none;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+}
+
+.lien{
+    color: blue;
+}
+
